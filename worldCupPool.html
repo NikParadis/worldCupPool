@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="./fifa.css" type="text/css" rel="stylesheet">
+	<script src="./js/fifaJQ.js"></script>
+	<script src='./js/fifa.js'></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+<div class="instructions">
+	<p>Drag teams in the group stage according to where you think they will finish. Teams 1 and 2 will move on to elimination rounds.</br> For an overview of the point system, <a href="" target="_blank">click here.</a></p>
+</div>
+<div class="group_stage">
+	<div class="maddy_kim a">
+		<p> Group A </p>
+		<ul class="group" id="sortable">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/egypt_icon.png">Egypt</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/russia_icon.png">Russia</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/saudi_arabia_icon.png">Saudi Arabia</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/uruguay_icon.png">Uruguay</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maddy_kim b">
+		<p> Group B </p>
+		<ul class="group" id="sortableTwo">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/iran_icon.png">Iran</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/morocco_icon.png">Morocco</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/portugal_icon.png">Portugal</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/spain_icon.png">Spain</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maddy_kim c">
+		<p> Group C </p>
+		<ul class="group" id="sortableThree">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/australia_icon.png">Australia</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/denmark_icon.png">Denmark</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/france_icon.png">France</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/peru_icon.png">Peru</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maddy_kim d">
+		<p> Group D </p>
+		<ul class="group" id="sortableFour">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/argentina_icon.png">Argentina</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/croatia_icon.png">Croatia</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/iceland_icon.png">Iceland</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/nigeria_icon.png">Nigeria</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maddy_kim e">
+		<p> Group E </p>
+		<ul class="group" id="sortableFive">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/brazil_icon.png">Brazil</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/costa_rica_icon.png">Costa Rica</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/switzerland_icon.png">Switzerland</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/serbia_icon.png">Serbia</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maddy_kim f">
+		<p> Group F </p>
+		<ul class="group" id="sortableSix">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/germany_icon.png">Germany</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/south_korea_icon.png">South Korea</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/mexico_icon.png">Mexico</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/sweeden_icon.png">Sweden</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="maddy_kim g">
+		<p> Group G </p>
+		<ul class="group" id="sortableSeven">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/belgium_icon.png">Belgium</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/england_icon.png">England</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/panama_icon.png">Panama</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/tunisia_icon.png">Tunisia</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="maddy_kim h">
+		<p> Group H </p>
+		<ul class="group" id="sortableEight">
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/colombia_icon.png">Colombia</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/japan_icon.png">Japan</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/poland_icon.png">Poland</li>
+		  <li class="ui-state-default"><img id="country" src="./wc_icons/senegal_icon.png">Senegal</li>
+		</ul>
+		<div class="position">
+			<ul>
+				<li id="first">1</li>
+				<li id="second">2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="next">
+	<p>Click the down arrow when you are finished.</p><a class="scroll" href="#bracket"><img class="scroll" id="down" src="./websiteImages/down-arrow.png"></a>
+</div>
+<div class="instructions" id="bracket">
+	<p>Drag your winners into the next round. Note: for the finals, the left side teams go on the top, the right on the bottom. </br>To pick your 3rd place and Champions team, simply drag your pick from the corresponding game into the right box. Good luck! </p>
+</div>
+<div class="elimination">
+	<div class="leftRoundSixteen">
+		<div class="roundSixteen">
+			<ul class="sixteen">
+				<li class="ui-state-default first" id="A_one"></li>
+				<li class="ui-state-default first" id="B_two"></li>
+			</ul>
+			<div class="sixteen placement">
+				<ul>
+					<li>A1</li>
+					<li>B2</li>
+				</ul>
+			</div>
+		</div>
+		<div class="roundSixteen">
+			<ul class="sixteen">
+				<li class="ui-state-default second" id="C_one"></li>
+				<li class="ui-state-default second" id="D_two"></li>
+			</ul>
+			<div class="sixteen placement">
+				<ul>
+					<li>C1</li>
+					<li>D2</li>
+				</ul>
+			</div>
+		</div>
+		<div class="roundSixteen">
+			<ul class="sixteen">
+				<li class="ui-state-default third" id="E_one"></li>
+				<li class="ui-state-default third" id="F_two"></li>
+			</ul>
+			<div class="sixteen placement">
+				<ul>
+					<li>E1</li>
+					<li>F2</li>
+				</ul>
+			</div>
+		</div>
+		<div class="roundSixteen">
+			<ul class="sixteen">
+				<li class="ui-state-default fourth" id="G_one"></li>
+				<li class="ui-state-default fourth" id="H_two"></li>
+			</ul>
+			<div class="sixteen placement">
+				<ul>
+					<li>G1</li>
+					<li>H2</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<!-- THIS IS WHERE NEXT COLUMN STARTS -->
+	<div class="rightRoundSixteen">
+		<div class="roundSixteen right">
+			<ul class="sixteen rightText">
+				<li class="ui-state-default fifth" id="B_one"></li>
+				<li class="ui-state-default fifth" id="A_two"></li>
+			</ul>
+			<div class="sixteen rightPlace">
+				<ul>
+					<li>B1</li>
+					<li>A2</li>
+				</ul>
+			</div>
+		</div>
+		<div class="roundSixteen right">
+			<ul class="sixteen rightText">
+				<li class="ui-state-default sixth" id="D_one"></li>
+				<li class="ui-state-default sixth" id="C_two"></li>
+			</ul>
+			<div class="sixteen rightPlace">
+				<ul>
+					<li>D1</li>
+					<li>C2</li>
+				</ul>
+			</div>
+		</div>
+		<div class="roundSixteen right">
+			<ul class="sixteen rightText">
+				<li class="ui-state-default seventh" id="F_one"></li>
+				<li class="ui-state-default seventh" id="E_two"></li>
+			</ul>
+			<div class="sixteen rightPlace">
+				<ul>
+					<li>F1</li>
+					<li>E2</li>
+				</ul>
+			</div>
+		</div>
+		<div class="roundSixteen right">
+			<ul class="sixteen rightText">
+				<li class="ui-state-default eighth" id="H_one"></li>
+				<li class="ui-state-default eighth" id="G_two"></li>
+			</ul>
+			<div class="sixteen rightPlace">
+				<ul>
+					<li>H1</li>
+					<li>G2</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- QUARTER FINALS -->
+	<div class="leftRoundQuarter">
+		<div class="roundQuarter">
+			<ul class="eight">
+				<li class="ui-state-default firstDrop" id="ninth"></li>
+				<li class="ui-state-default secondDrop" id="ninth"></li>
+			</ul>
+		</div>
+		<div class="roundQuarter">
+			<ul class="eight">
+				<li class="ui-state-default thirdDrop" id="tenth"></li>
+				<li class="ui-state-default fourthDrop" id="tenth"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="rightRoundQuarter">
+		<div class="roundQuarter right">
+			<ul class="eight rightText">
+				<li class="ui-state-default fifthDrop" id="eleventh"></li>
+				<li class="ui-state-default sixthDrop" id="eleventh"></li>
+			</ul>
+		</div>
+		<div class="roundQuarter right">
+			<ul class="eight rightText">
+				<li class="ui-state-default seventhDrop" id="twelfth"></li>
+				<li class="ui-state-default eighthDrop" id="twelfth"></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- SEMI FINALS -->
+	<div class="leftRoundSemis">
+		<div class="roundSemis">
+			<ul class="four">
+				<li class="ui-state-default ninthDrop" id="thirteenth"></li>
+				<li class="ui-state-default tenthDrop" id="thirteenth"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="rightRoundSemis">
+		<div class="roundSemis right">
+			<ul class="four rightText">
+				<li class="ui-state-default eleventhDrop" id="fourteenth"></li>
+				<li class="ui-state-default twelfthDrop" id="fourteenth"></li>
+			</ul>
+		</div>
+	</div>
+	<!-- FINALS -->
+	<div class="finals">
+		<p> Finals </p>
+		<div class="roundFinals">
+			<ul class="two">
+				<li class="ui-state-default thirteenthDrop" id="finalist"></li>
+				<li class="ui-state-default fourteenthDrop" id="finalist"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="consolation_finals">
+		<p> Consolation Finals </p>
+		<div class="roundConsoloationFinals">
+			<ul class="two">
+				<li class="ui-state-default thirteenthDrop" id="thirdPlace"></li>
+				<li class="ui-state-default fourteenthDrop" id="thirdPlace"></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Winner & 3rd Place -->
+	<div class="thirdPlace">
+		<p> 3rd Place </p>
+		<div class="roundThirdPlace">
+			<ul class="two">
+				<li class="ui-state-default fifteenthDrop"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="winner">
+		<p> Champion </p>
+		<div class="roundWinner">
+			<ul class="two">
+				<li class="ui-state-default sixteenthDrop"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="instructions">
+	<p>IMPORTANT!! -- Send a PDF of this page, contact info & a $20 e-transfer to Nikparadis@hotmail.com for a place in the world cup pool! </br>Point updates will be at the top of this page after every round of the tournament. Winners will be contacted at the end</p>
+</div>
+<script src="./js/easingPractice.js"></script>
+</body>
+</html>
+

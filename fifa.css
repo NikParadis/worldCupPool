@@ -1,0 +1,201 @@
+* {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	list-style: none;
+}
+li {
+	height: 25px;
+}
+body {
+	padding: 0em 2em;
+	margin: 0;
+	background-color: #383838;
+}
+.instructions {
+	width: 90%;
+	display: block;
+	margin: 10px auto;
+	line-height: 200%;
+}
+.eight li, .sixteen li{
+	padding: 5px 0px 10px 0px;
+}
+.four li, .two li{
+	padding: 0px 0px 9px 0px;
+}
+.group li {
+	padding: 5px 0px 5px 0px;
+}
+.group li, .eight li, .sixteen li, .two li, .four li{ 
+  	width: 150px;
+  	cursor: pointer;
+  	border-bottom: 0.5px solid white;
+}
+.group li:last-child, .two li:last-child, .four li:last-child, .sixteen li:last-child,.eight li:last-child, .position ul li:last-child, .rightPlace ul li:last-child {
+	border-bottom: none;
+}
+.group li:first-child, .position ul li:first-child {
+	border-top: 0.5px solid white;
+}
+.maddy_kim {
+	margin: 0px 5vw 5vh 0px;
+	width: auto;
+	float: left;
+	position: relative;
+	border-radius: 10%;
+	border: 1px solid white;
+}
+.maddy_kim p {
+	text-align: center;
+}
+#country {
+	width: 25px;
+	height: 25px;
+	padding: 0px 20px 0px 10px;
+}
+#rightFlag {
+	width: 25px;
+	height: 25px;
+	padding: 0px 10px 0px 20px;
+}
+.position, .placement {
+	float: left;
+}
+.position ul li, .rightPlace ul li {
+	padding: 5px 0px 5px 0px;
+	line-height: 40px;
+	border-bottom: 0.5px solid white;
+	height: 25px;
+	width: 50px;
+	text-align: center;
+}
+.sixteen ul li {
+	padding: 5px 0px 10px 0px;
+	line-height: 40px;
+	border-bottom: 0.5px solid white;
+	height: 25px;
+	width: 50px;
+	text-align: center;	
+}
+#first, #second {
+	background-color: rgba(127, 255, 0, 0.5)
+}
+.group_stage {
+	float: left;
+	width: 1150px;
+	height: 450px;
+	overflow: hidden;
+}
+.a, .e {
+	margin-left: 4vw;
+}
+.next {
+	text-align: center;
+	overflow: hidden;
+	width: 30%;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+.next img {
+	height: 100px;
+	width: 100px;
+	padding: 0px 15px;
+}
+#down {
+	cursor: pointer;
+}
+.elimination {
+	position: relative;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	width: 1225px;
+	height: 625px;
+}
+.right, .rightPlace {
+	float: right;
+}
+.sixteen li:first-child, .eight li:first-child {
+	border-top: none !important;
+}
+.roundSixteen {
+	margin-bottom: 60px;
+	height: 100%;
+}
+.roundQuarter {
+	margin-bottom: 205px;
+}
+.roundSixteen:last-child {
+	margin-bottom: 0;
+}
+.leftRoundSixteen, .rightRoundSixteen {
+	position: absolute;
+	width: 200px;
+	padding-top: 50px;
+}
+.rightRoundSixteen {
+	right: 0;
+}
+.rightText li {
+	text-align: right;
+}
+.leftRoundQuarter, .rightRoundQuarter {
+	width: 150px;
+	top: 120px;
+	position: absolute;
+}
+.rightRoundQuarter {
+	right: 200px;
+}
+.leftRoundQuarter {
+	left: 200px;
+}
+.leftRoundSemis, .rightRoundSemis {
+	width: 150px;
+	top: 250px;
+	position: absolute;
+}
+.rightRoundSemis {
+	right: 325px;
+}
+.leftRoundSemis {
+	left: 325px;
+}
+.finals, .consolation_finals, .thirdPlace, .winner {
+	width: 150px;
+	position: absolute;
+	text-align: center;
+}
+.finals {
+	top: 320px;
+	left: 530px;
+}
+.consolation_finals {
+	left: 530px;
+	top: 120px;
+}
+.thirdPlace {
+	left: 530px;
+	border: 1px solid white;
+}
+.winner {
+	left: 455px;
+	height: 100px;
+	border: 3px dashed gold;
+	width: 300px;
+	bottom: 0;
+}
+.roundWinner li {
+	width: 250px;
+}
+.roundWinner li img {
+	width: 55px;
+	height: 55px;
+}
+
+
